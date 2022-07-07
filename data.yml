@@ -17,7 +17,7 @@ environments:
         database: NOLAN_DB
         id: 2
         locationName: HELLO
-        schema: STAGE
+        schema: STAGE_QA
     name: DEV
   qa:
     createdAt:

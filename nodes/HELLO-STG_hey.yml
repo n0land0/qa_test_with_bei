@@ -12,8 +12,8 @@ steps:
       description: ""
       isDataVault: false
       isMultisource: false
-      locationID: 1
-      locationName: YO
+      locationID: 2
+      locationName: HELLO
       materializationType: table
       metadata:
         appliedNodeTests: []
