@@ -133,13 +133,15 @@ steps:
         cteString: ""
         enabledColumnTestIDs: []
         sourceMapping:
-          - customSQL:
+          - aliases:
+              heyu: "10"
+            customSQL:
               customSQL: ""
             dependencies:
               - locationName: YO
-                nodeName: hey
+                nodeName: heyu
             join:
-              joinCondition: FROM {{ ref('YO', 'hey') }} "hey"
+              joinCondition: FROM {{ ref('YO', 'heyu') }} "heyu"
             name: STG_hey
             noLinkRefs: []
       name: STG_hey
