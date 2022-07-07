@@ -30,7 +30,18 @@ environments:
         locationName: YO
         schema: STAGE
     name: qa
-jobs: {}
+jobs:
+  Job-1:
+    id: 1
+    name: New Job
+    steps:
+      - "12"
+      - "20"
+      - "8"
+      - "9"
+      - "10"
+      - "11"
+    subgraphs: []
 locations:
   YO:
     default: true
