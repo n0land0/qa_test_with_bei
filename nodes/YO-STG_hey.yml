@@ -130,27 +130,6 @@ steps:
                   - columnCounter: 53
                     stepCounter: "10"
                 transform: ""
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests: {}
-            columnReference:
-              columnCounter: 78
-              stepCounter: "20"
-            config: {}
-            dataType: ""
-            defaultValue: ""
-            description: ""
-            keyColumnType: None
-            name: iamacolumn
-            nullable: true
-            sourceColumnReferences:
-              - columnReferences:
-                  - columnCounter: 0
-                    stepCounter: "0"
-                transform: ""
-            systemColumnType: None
-            transform: ""
         cteString: ""
         enabledColumnTestIDs: []
         sourceMapping:
