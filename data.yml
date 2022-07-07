@@ -48,7 +48,7 @@ stepTypes:
         capitalized: New Type
         short: NEW
         tagColor: gray
-        `   plural: New Types
+        plural: New Types
       templates:
         create:
           templateString: ""
