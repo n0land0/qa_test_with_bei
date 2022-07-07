@@ -56,6 +56,23 @@ stepTypes:
           templateString: ""
     name: aaaasevenyaaaaa
     version: 1
+  StepType-2:
+    id: "2"
+    isDisabled: false
+    metadata:
+      error: null
+      nodeMetadataSpec: |-
+        capitalized: New Type
+        short: NEW
+        tagColor: gray
+        plural: New Types
+      templates:
+        create:
+          templateString: ""
+        run:
+          templateString: ""
+    name: hellur
+    version: 1
   StepType-Dimension:
     id: Dimension
     isDisabled: false
