@@ -13,6 +13,11 @@ environments:
         id: 1
         locationName: YO
         schema: STAGE
+      "2":
+        database: NOLAN_DB
+        id: 2
+        locationName: HELLO
+        schema: STAGE
     name: DEV
   qa:
     createdAt:
@@ -29,6 +34,11 @@ environments:
         id: 1
         locationName: YO
         schema: STAGE
+      "2":
+        database: NOLAN_DB
+        id: 2
+        locationName: HELLO
+        schema: STAGE
     name: qa
 jobs:
   Job-1:
@@ -43,6 +53,10 @@ jobs:
       - "11"
     subgraphs: []
 locations:
+  HELLO:
+    default: false
+    id: 2
+    locationName: HELLO
   YO:
     default: true
     id: 1
