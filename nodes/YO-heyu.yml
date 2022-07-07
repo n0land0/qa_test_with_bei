@@ -1,5 +1,5 @@
 steps:
-  hey-10:
+  heyu-10:
     operation:
       config:
         insertStrategy: INSERT
@@ -140,9 +140,9 @@ steps:
                 nodeName: STG_CUSTOMER
             join:
               joinCondition: FROM {{ ref('YO', 'STG_CUSTOMER') }} "STG_CUSTOMER"
-            name: hey
+            name: heyu
             noLinkRefs: []
-      name: hey
+      name: heyu
       overrideSQL: false
       schema: ""
       sqlType: Satellite
